@@ -17,6 +17,10 @@
 		3FC174B327F6C05F00BF4933 /* Indian_Premier_League_2022UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC174B227F6C05F00BF4933 /* Indian_Premier_League_2022UITests.swift */; };
 		3FC174B527F6C05F00BF4933 /* Indian_Premier_League_2022UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC174B427F6C05F00BF4933 /* Indian_Premier_League_2022UITestsLaunchTests.swift */; };
 		3FC174C227F6C1DA00BF4933 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC174C127F6C1DA00BF4933 /* InformationViewController.swift */; };
+		3FC7BCEB27FFA116002384AF /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7BCEA27FFA116002384AF /* CellTableViewCell.swift */; };
+		3FC7BCED27FFA64E002384AF /* PreviousIplWinnersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7BCEC27FFA64E002384AF /* PreviousIplWinnersViewController.swift */; };
+		3FC7BCEF27FFAD92002384AF /* TeamStatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7BCEE27FFAD92002384AF /* TeamStatisticsViewController.swift */; };
+		3FC7BCF127FFAFD2002384AF /* PlayerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7BCF027FFAFD2002384AF /* PlayerInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		3FC174B227F6C05F00BF4933 /* Indian_Premier_League_2022UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indian_Premier_League_2022UITests.swift; sourceTree = "<group>"; };
 		3FC174B427F6C05F00BF4933 /* Indian_Premier_League_2022UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indian_Premier_League_2022UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3FC174C127F6C1DA00BF4933 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		3FC7BCEA27FFA116002384AF /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
+		3FC7BCEC27FFA64E002384AF /* PreviousIplWinnersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousIplWinnersViewController.swift; sourceTree = "<group>"; };
+		3FC7BCEE27FFAD92002384AF /* TeamStatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamStatisticsViewController.swift; sourceTree = "<group>"; };
+		3FC7BCF027FFAFD2002384AF /* PlayerInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +112,15 @@
 				3FC1749127F6C05E00BF4933 /* AppDelegate.swift */,
 				3FC1749327F6C05E00BF4933 /* SceneDelegate.swift */,
 				3FC1749527F6C05E00BF4933 /* ViewController.swift */,
+				3FC174C127F6C1DA00BF4933 /* InformationViewController.swift */,
+				3FC7BCEA27FFA116002384AF /* CellTableViewCell.swift */,
+				3FC7BCEC27FFA64E002384AF /* PreviousIplWinnersViewController.swift */,
+				3FC7BCEE27FFAD92002384AF /* TeamStatisticsViewController.swift */,
+				3FC7BCF027FFAFD2002384AF /* PlayerInfoViewController.swift */,
 				3FC1749727F6C05E00BF4933 /* Main.storyboard */,
 				3FC1749A27F6C05F00BF4933 /* Assets.xcassets */,
 				3FC1749C27F6C05F00BF4933 /* LaunchScreen.storyboard */,
 				3FC1749F27F6C05F00BF4933 /* Info.plist */,
-				3FC174C127F6C1DA00BF4933 /* InformationViewController.swift */,
 			);
 			path = Indian_Premier_League_2022;
 			sourceTree = "<group>";
@@ -261,7 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC7BCEB27FFA116002384AF /* CellTableViewCell.swift in Sources */,
+				3FC7BCF127FFAFD2002384AF /* PlayerInfoViewController.swift in Sources */,
 				3FC1749627F6C05E00BF4933 /* ViewController.swift in Sources */,
+				3FC7BCEF27FFAD92002384AF /* TeamStatisticsViewController.swift in Sources */,
+				3FC7BCED27FFA64E002384AF /* PreviousIplWinnersViewController.swift in Sources */,
 				3FC1749227F6C05E00BF4933 /* AppDelegate.swift in Sources */,
 				3FC1749427F6C05E00BF4933 /* SceneDelegate.swift in Sources */,
 				3FC174C227F6C1DA00BF4933 /* InformationViewController.swift in Sources */,

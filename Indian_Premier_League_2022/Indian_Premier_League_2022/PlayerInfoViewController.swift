@@ -1,27 +1,18 @@
 //
-//  InformationViewController.swift
+//  PlayerInfoViewController.swift
 //  Indian_Premier_League_2022
 //
-//  Created by student on 4/1/22.
+//  Created by student on 4/7/22.
 //
 
 import UIKit
 
-class InformationViewController: UIViewController {
+class PlayerInfoViewController: UIViewController {
 
-    @IBOutlet weak var displayLabel: UILabel!
-    
-    @IBOutlet weak var displayImage: UIImageView!
-    
-    var name = ""
-    var image1 = UIImage(named: "")
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        displayLabel.text = "\(name)"
-        displayImage.image = image1
+
         // Do any additional setup after loading the view.
-        //displayLabel.text = "In IPL \((team?.teamName)!) is one of the best team."
     }
     
 

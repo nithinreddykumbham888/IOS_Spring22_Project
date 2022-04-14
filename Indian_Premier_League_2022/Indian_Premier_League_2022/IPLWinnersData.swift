@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 let iplWinners = [["Rajasthan","2008","Shane Watson","Sohail Tanvir"],
-                  ["Hyderabad","2009","Adam Gilchrist","R.P.Singh"],
+                  ["Decan Charges Hyderabad","2009","Adam Gilchrist","R.P.Singh"],
                   ["Chennai","2010","Suresh Raina","M.Muralidharan"],
                   ["Chennai","2011","Michael Hussey","R.Ashwin"],
                   ["Kolkata","2012","Gautham Gambhir","Sunil Narine"],

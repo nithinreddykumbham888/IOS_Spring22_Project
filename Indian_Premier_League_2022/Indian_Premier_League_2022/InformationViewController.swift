@@ -13,13 +13,36 @@ class InformationViewController: UIViewController {
     
     @IBOutlet weak var displayImage: UIImageView!
     
+    @IBOutlet weak var captainInfo: UILabel!
+    
+    @IBOutlet weak var coachInfo: UILabel!
+    
+    @IBOutlet weak var ownerInfo: UILabel!
+    
+    @IBOutlet weak var homeGroundInfo: UILabel!
+    
+    @IBOutlet weak var valuation: UILabel!
+    
+    
     var name = ""
     var image1 = UIImage(named: "")
+    var captainInfo1 = ""
+    var coachInfo1 = ""
+    var ownerInfo1 = ""
+    var homeGroundInfo1 = ""
+    var valuation1 = Double("")
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         displayLabel.text = "\(name)"
         displayImage.image = image1
+        captainInfo.text = "Captain : \(captainInfo1)"
+        coachInfo.text = "Coach : \(coachInfo1)"
+        ownerInfo.text = "Owner : \(ownerInfo1)"
+        homeGroundInfo.text = "Home Ground : \(homeGroundInfo1)"
+        valuation.text = "Valuation of Team : \(Double(valuation1!)) Million $"
         // Do any additional setup after loading the view.
         //displayLabel.text = "In IPL \((team?.teamName)!) is one of the best team."
     }

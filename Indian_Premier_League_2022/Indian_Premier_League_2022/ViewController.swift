@@ -30,6 +30,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var teamImages = ["Chennai","Mumbai","Lucknow","Gujarat","Banglore","Kolkata","Delhi","Hyderabad","Rajasthan","Punjab"]
     
+    var teamsInfoArray = teamInfoArray
+    var iplWinnersArray = iplWinners
 
     
     @IBOutlet weak var tableViewOutlet: UITableView!
@@ -49,8 +51,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             
             destination.name = teams[(tableViewOutlet.indexPathForSelectedRow?.row)!]
             destination.image1 = UIImage(named: teamImages[(tableViewOutlet.indexPathForSelectedRow?.row)!])
+            destination.captainInfo1 = teamsInfoArray[(tableViewOutlet.indexPathForSelectedRow!.row)].captain
+            destination.coachInfo1 = teamsInfoArray[(tableViewOutlet.indexPathForSelectedRow!.row)].coach
+            destination.homeGroundInfo1 = teamsInfoArray[(tableViewOutlet.indexPathForSelectedRow!.row)].homeGround
+            destination.valuation1 = teamsInfoArray[(tableViewOutlet.indexPathForSelectedRow!.row)].valuation
+            destination.ownerInfo1 = teamsInfoArray[(tableViewOutlet.indexPathForSelectedRow!.row)].owner
+        }
+        else if transition == "winnersSegue"{
+            let destination1 = segue.destination as! PreviousIplWinnersViewController
         }
     }
+    
 
 }
 

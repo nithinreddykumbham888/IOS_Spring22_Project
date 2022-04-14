@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FBB2680280757B700077A56 /* TeamInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB267F280757B700077A56 /* TeamInfo.swift */; };
+		3FBB26822807CB2D00077A56 /* IPLWinnersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB26812807CB2D00077A56 /* IPLWinnersData.swift */; };
 		3FC1749227F6C05E00BF4933 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1749127F6C05E00BF4933 /* AppDelegate.swift */; };
 		3FC1749427F6C05E00BF4933 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1749327F6C05E00BF4933 /* SceneDelegate.swift */; };
 		3FC1749627F6C05E00BF4933 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1749527F6C05E00BF4933 /* ViewController.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FBB267F280757B700077A56 /* TeamInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamInfo.swift; sourceTree = "<group>"; };
+		3FBB26812807CB2D00077A56 /* IPLWinnersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPLWinnersData.swift; sourceTree = "<group>"; };
 		3FC1748E27F6C05E00BF4933 /* Indian_Premier_League_2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Indian_Premier_League_2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC1749127F6C05E00BF4933 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC1749327F6C05E00BF4933 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 				3FC1749A27F6C05F00BF4933 /* Assets.xcassets */,
 				3FC1749C27F6C05F00BF4933 /* LaunchScreen.storyboard */,
 				3FC1749F27F6C05F00BF4933 /* Info.plist */,
+				3FBB267F280757B700077A56 /* TeamInfo.swift */,
+				3FBB26812807CB2D00077A56 /* IPLWinnersData.swift */,
 			);
 			path = Indian_Premier_League_2022;
 			sourceTree = "<group>";
@@ -277,10 +283,12 @@
 				3FC7BCF127FFAFD2002384AF /* PlayerInfoViewController.swift in Sources */,
 				3FC1749627F6C05E00BF4933 /* ViewController.swift in Sources */,
 				3FC7BCEF27FFAD92002384AF /* TeamStatisticsViewController.swift in Sources */,
+				3FBB26822807CB2D00077A56 /* IPLWinnersData.swift in Sources */,
 				3FC7BCED27FFA64E002384AF /* PreviousIplWinnersViewController.swift in Sources */,
 				3FC1749227F6C05E00BF4933 /* AppDelegate.swift in Sources */,
 				3FC1749427F6C05E00BF4933 /* SceneDelegate.swift in Sources */,
 				3FC174C227F6C1DA00BF4933 /* InformationViewController.swift in Sources */,
+				3FBB2680280757B700077A56 /* TeamInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -32,6 +32,8 @@ class InformationViewController: UIViewController {
     var homeGroundInfo1 = ""
     var valuation1 = Double("")
     
+    var selectedRow = 0
+    
     
     
     override func viewDidLoad() {
@@ -48,14 +50,24 @@ class InformationViewController: UIViewController {
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        
+        if segue.identifier == "staticticsSegue" {
+            let destination2 = segue.destination as! TeamStatisticsViewController
+            print(teams[selectedRow])
+            destination2.teamTitle = teams[selectedRow]
+            destination2.disImage =  teamImages[selectedRow]
+            destination2.teamWin = iplTeamStatisticsArray[(selectedRow)].winPercent
+            destination2.teamHighTotal = iplTeamStatisticsArray[(selectedRow)].highestTotal
+            destination2.mstRuns = iplTeamStatisticsArray[(selectedRow)].mostRuns
+            destination2.mstWicks = iplTeamStatisticsArray[(selectedRow)].mostWickets
+            destination2.teamData = iplTeamStatisticsArray[(selectedRow)].teamInfo
+        }
     }
-    */
+    
 
 }

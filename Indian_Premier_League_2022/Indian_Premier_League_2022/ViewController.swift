@@ -26,12 +26,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 
     
-    var teams = ["Chennai Super Kings","Mumbai Indians","Lucknow Super Giants","Gujarat Titans","Royal Challengers Bangalore","Kolkota Knight Riders","Delhi Capitals","Sunrisers Hyderabad","Rajasthan Royals","Punjab Kings"]
-    
-    var teamImages = ["Chennai","Mumbai","Lucknow","Gujarat","Banglore","Kolkata","Delhi","Hyderabad","Rajasthan","Punjab"]
     
     var teamsInfoArray = teamInfoArray
     var iplWinnersArray = iplWinners
+    
 
     
     @IBOutlet weak var tableViewOutlet: UITableView!
@@ -42,11 +40,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         // Do any additional setup after loading the view.
         tableViewOutlet.delegate = self
         tableViewOutlet.dataSource = self
+        //print(teamsInfoArray)
         
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        print("inside preapre")
         let transition = segue.identifier
         if transition == "InfoSegue"{
+            print("inside preapre info")
             let destination = segue.destination as! InformationViewController
             
             destination.name = teams[(tableViewOutlet.indexPathForSelectedRow?.row)!]
@@ -56,10 +57,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             destination.homeGroundInfo1 = teamsInfoArray[(tableViewOutlet.indexPathForSelectedRow!.row)].homeGround
             destination.valuation1 = teamsInfoArray[(tableViewOutlet.indexPathForSelectedRow!.row)].valuation
             destination.ownerInfo1 = teamsInfoArray[(tableViewOutlet.indexPathForSelectedRow!.row)].owner
+            destination.selectedRow = tableViewOutlet.indexPathForSelectedRow!.row
         }
         else if transition == "winnersSegue"{
+            print("inside preapre wiiner")
             let destination1 = segue.destination as! PreviousIplWinnersViewController
         }
+        
+       
     }
     
 

@@ -36,5 +36,12 @@ let team9RR = teamStatistics(winPercent: 50.00, highestTotal: 226, mostRuns: "Aj
 
 let team10PBKS = teamStatistics(winPercent: 45.58, highestTotal: 232, mostRuns: "KL Rahul", mostWickets: "Piyush Chawla",teamInfo: "Punjab Kings is a team from north india and founded in year 2008. The team has bollywood actress prethi Zintha as one of the share holder. The team has best feilding and the best feilding coach Jonty Rhodes acting as feilding coach.")
 
-let iplTeamStatistics = [team1CSK,team2MI,team3LK,team4GT,team5BL,team6KL,team7DL,team8HYD,team9RR,team10PBKS]
+let iplTeamStatisticsArray = [team1CSK,team2MI,team3LK,team4GT,team5BL,team6KL,team7DL,team8HYD,team9RR,team10PBKS]
+
+var teamImages = ["Chennai","Mumbai","Lucknow","Gujarat","Banglore","Kolkata","Delhi","Hyderabad","Rajasthan","Punjab"]
+
+
+var teams = ["Chennai Super Kings","Mumbai Indians","Lucknow Super Giants","Gujarat Titans","Royal Challengers Bangalore","Kolkota Knight Riders","Delhi Capitals","Sunrisers Hyderabad","Rajasthan Royals","Punjab Kings"]
+
+
 

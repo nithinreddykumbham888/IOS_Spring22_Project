@@ -55,4 +55,50 @@ let teamCSK1 = Team(teamName: "Chennai Super Kings",
                     PlayerDetails(playerName: "Shivam Dube", image: UIImage(named: "Shivam")!, playerCountry: "India", playerBattingStyle: "Left", playerBowlingStyle: "Left"),
                     PlayerDetails(playerName: "Robin Uthappa", image: UIImage(named: "Uthappa")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right")])
 
-let TeamArray = [teamCSK1]
+let teamMI1 = Team(teamName: "Mumbai Indians",
+                   players_Array:[
+                      PlayerDetails(playerName: "Rohith Sharma", image: UIImage(named: "Rohith")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Surya Kumar Yadhav", image: UIImage(named: "Surya")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Fabien Allen", image: UIImage(named: "Allen")!, playerCountry: "West Indies", playerBattingStyle: "Left", playerBowlingStyle: "Left"),
+                      PlayerDetails(playerName: "David Brewis", image: UIImage(named: "Brewis")!, playerCountry: "South Africa", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Jasprit Bumrah", image: UIImage(named: "Bumrah")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Tim David", image: UIImage(named: "David")!, playerCountry: "New Zealand", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Ishan Kishan", image: UIImage(named: "Ishan")!, playerCountry: "India", playerBattingStyle: "Left", playerBowlingStyle: "Left"),
+                      PlayerDetails(playerName: "Railey Meredith", image: UIImage(named: "Meredith")!, playerCountry: "Austrlia", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Kerion Pollard", image: UIImage(named: "Pollard")!, playerCountry: "West Indies", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Daniel Sams", image: UIImage(named: "Sams")!, playerCountry: "Austrlia", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Bisal Thampi", image: UIImage(named: "Thampi")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Tymal Mills", image: UIImage(named: "Tymal")!, playerCountry: "England", playerBattingStyle: "Left", playerBowlingStyle: "Left")])
+
+let teamLK1 = Team(teamName: "Lucknow Super Gaints",
+                   players_Array:[
+                      PlayerDetails(playerName: "KL Rahul", image: UIImage(named: "Rahul")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "De Kock", image: UIImage(named: "Kock")!, playerCountry: "South Africa", playerBattingStyle: "Left", playerBowlingStyle: "left"),
+                      PlayerDetails(playerName: "Manish Pandey ", image: UIImage(named: "Manish")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Marcus Stoinis", image: UIImage(named: "Stoinis")!, playerCountry: "Austrlia", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Kurnal Pandya", image: UIImage(named: "Pandya")!, playerCountry: "India", playerBattingStyle: "Left", playerBowlingStyle: "Left"),
+                      PlayerDetails(playerName: "Andrew Tye", image: UIImage(named: "Tye")!, playerCountry: "Austrlia", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Jason Holder", image: UIImage(named: "Holder")!, playerCountry: "West Indies", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Ewin Lewis", image: UIImage(named: "Lewis")!, playerCountry: "West Indies", playerBattingStyle: "Left", playerBowlingStyle: "Left"),
+                      PlayerDetails(playerName: "Avesh Kahn", image: UIImage(named: "Avesh")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Deepak Hooda", image: UIImage(named: "Hooda")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Kyle Mayers", image: UIImage(named: "Mayers")!, playerCountry: "West Indies", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Ravi Bishnoi", image: UIImage(named: "Ravi")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Krishnapa Goutham", image: UIImage(named: "Goutham")!, playerCountry: "India", playerBattingStyle: "Left", playerBowlingStyle: "Left")])
+
+let teamGT1 = Team(teamName: "Gujrat Titans",
+                   players_Array:[
+                      PlayerDetails(playerName: "Hardik Pandya", image: UIImage(named: "Pandya")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Mathew Wade", image: UIImage(named: "Wade")!, playerCountry: "Austrlia", playerBattingStyle: "Left", playerBowlingStyle: "Left"),
+                      PlayerDetails(playerName: "Alzari Joseph", image: UIImage(named: "Alzari")!, playerCountry: "West Indies", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Domink Drakes", image: UIImage(named: "Drakes")!, playerCountry: "West Indies", playerBattingStyle: "Left", playerBowlingStyle: "Left"),
+                      PlayerDetails(playerName: "Subhnam Gill", image: UIImage(named: "Gill")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Jayant Yadhav", image: UIImage(named: "Jayant")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Lokie Ferguson", image: UIImage(named: "Lokie")!, playerCountry: "New Zealand", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "David Miller", image: UIImage(named: "Miller")!, playerCountry: "South Africa", playerBattingStyle: "Left", playerBowlingStyle: "Left"),
+                      PlayerDetails(playerName: "Rahul Twethia", image: UIImage(named: "Rahul")!, playerCountry: "India", playerBattingStyle: "Left", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Rashid Kahn", image: UIImage(named: "Rashid")!, playerCountry: "Afganisthan", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Mohhamed Shami", image: UIImage(named: "Shami")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "Vijay Shankar", image: UIImage(named: "Vijay")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right")])
+                      
+let TeamArray = [teamCSK1,teamMI1,teamLK1,teamGT1]

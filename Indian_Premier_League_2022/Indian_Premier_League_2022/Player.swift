@@ -72,11 +72,11 @@ let teamMI1 = Team(teamName: "Mumbai Indians",
 
 let teamLK1 = Team(teamName: "Lucknow Super Gaints",
                    players_Array:[
-                      PlayerDetails(playerName: "KL Rahul", image: UIImage(named: "Rahul")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
+                      PlayerDetails(playerName: "KL Rahul", image: UIImage(named: "KLRahul")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
                       PlayerDetails(playerName: "De Kock", image: UIImage(named: "Kock")!, playerCountry: "South Africa", playerBattingStyle: "Left", playerBowlingStyle: "left"),
                       PlayerDetails(playerName: "Manish Pandey ", image: UIImage(named: "Manish")!, playerCountry: "India", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
                       PlayerDetails(playerName: "Marcus Stoinis", image: UIImage(named: "Stoinis")!, playerCountry: "Austrlia", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
-                      PlayerDetails(playerName: "Kurnal Pandya", image: UIImage(named: "Pandya")!, playerCountry: "India", playerBattingStyle: "Left", playerBowlingStyle: "Left"),
+                      PlayerDetails(playerName: "Kurnal Pandya", image: UIImage(named: "KPandya")!, playerCountry: "India", playerBattingStyle: "Left", playerBowlingStyle: "Left"),
                       PlayerDetails(playerName: "Andrew Tye", image: UIImage(named: "Tye")!, playerCountry: "Austrlia", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
                       PlayerDetails(playerName: "Jason Holder", image: UIImage(named: "Holder")!, playerCountry: "West Indies", playerBattingStyle: "Right", playerBowlingStyle: "Right"),
                       PlayerDetails(playerName: "Ewin Lewis", image: UIImage(named: "Lewis")!, playerCountry: "West Indies", playerBattingStyle: "Left", playerBowlingStyle: "Left"),

@@ -33,8 +33,7 @@ class InformationViewController: UIViewController {
     var valuation1 = Double("")
     
     var selectedRow = 0
-    
-    
+    var playersArray = TeamArray;
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -67,7 +66,15 @@ class InformationViewController: UIViewController {
             destination2.mstWicks = iplTeamStatisticsArray[(selectedRow)].mostWickets
             destination2.teamData = iplTeamStatisticsArray[(selectedRow)].teamInfo
         }
+        
+        else if segue.identifier  == "playerSegue"{
+            print("inside preapre wiiner")
+            let destination3 = segue.destination as! PlayerInfoViewController
+            destination3.teamPlayersArray = playersArray[(selectedRow)].players_Array
+            destination3.title1 = playersArray[(selectedRow)].teamName
+        }
     }
+    
     
 
 }
